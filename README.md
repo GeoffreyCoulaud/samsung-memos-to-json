@@ -1,5 +1,5 @@
 # samsung-memos-to-json
-## Convert Samsung memos to for use in "Another notes app"
+## Convert Samsung memos to import them in "Another notes app"
 
 <center>
 	<img src="./banner.png" alt="banner illustration">
