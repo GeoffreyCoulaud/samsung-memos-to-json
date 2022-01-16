@@ -1,9 +1,9 @@
 # samsung-memos-to-json
 ## Convert Samsung memos to import them in "Another notes app"
 
-<center>
+<p align="center">
 	<img src="./banner.png" alt="banner illustration">
-</center>
+</p>
 
 If you've used the old Samsung memo app, you'll realize that you're kind of locked
 in with that brand for your notes. It's either copy and paste or leave them behind.
