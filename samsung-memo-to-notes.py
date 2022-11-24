@@ -114,7 +114,7 @@ def convert(inDir, outFile, fallbackTitle="No title"):
 
 		# Create note
 		print("* Creating note")
-		note = memoXmlToNote(tree)
+		note = memoXmlToNote(tree, fallbackTitle)
 		notes.append(note)
 
 		print("* Done")
@@ -142,7 +142,7 @@ def main():
 	parser = argparse.ArgumentParser()
 	parser.add_argument("input", help="Directory where your memos are stored")
 	parser.add_argument("output", help="Destination file for your JSON backup")
-	parser.add_argument("-f", "--fallbackTitle", help="Title used when none is found for a memo")
+	parser.add_argument("-f", "--fallbackTitle", default="No title", help="Title used when none is found for a memo")
 	args = parser.parse_args()
 	
 	# Convert
